@@ -1,0 +1,23 @@
+<!-- Trang login -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+    <h2>Đăng nhập</h2>
+    <!-- Form gửi dữ liệu đến LoginController -->
+    <form action="login" method="post">
+        UserName: <input type="text" name="username"><br>
+        Password: <input type="password" name="password"><br>
+
+        <!-- Chọn login bằng session hay cookie -->
+        <label><input type="radio" name="loginType" value="session" checked> Dùng Session</label><br>
+        <label><input type="radio" name="loginType" value="cookie"> Dùng Cookie</label><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+
