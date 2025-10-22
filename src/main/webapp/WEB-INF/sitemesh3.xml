@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh-mapping>
+    <mapping path="/" decorator="/WEB-INF/views/web.jsp" />
+    <mapping path="/admin/*" decorator="/WEB-INF/views/admin.jsp" />
+    <mapping path="/api/*" exclude="true" />
+</sitemesh-mapping>
